@@ -1,0 +1,75 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+body{
+    background-color: rgba(211, 200, 200, 0.57);
+    text-align: center;
+}
+
+.num{
+    font-size: 10px;
+    color: blue;
+ 
+}
+
+#factsText{
+    margin-top: 50px;
+    
+}
+#fact{
+    margin-top: 20px;
+}
+
+/* .container{
+    border: 2px solid #7E2C0B;
+     background-color: black;
+    width: 50%;
+    text-align: center;
+    float: center;
+    border-radius: 9px;
+    height: 450px;
+} */
+
+.main{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 8px;
+}
+h3{
+    padding-bottom: 0;
+    margin-top: 50px;
+}
+
+.head{
+    color:#fff;
+}
+
+#factsText{
+    height: 40px;
+    width: 50%;
+}
+
+#hide{
+    display: none;
+}
+.para{
+    background-color: white;
+    border-radius: 6px;
+    padding: 1em;
+    width: 50%;
+    padding-bottom: 30px;
+    margin: auto;
+    margin-top: 25px;
+   
+}
+
+.form-control{
+    width: 320px;
+    border-top: solid green;
+    border-style: none;
+    border-radius: 6px;
+    height: 25px;
+    text-align: center;
+}
