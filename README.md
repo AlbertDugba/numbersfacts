@@ -2,5 +2,5 @@
 
 It uses the <code>xmlHttpRequest()</code>object to make a request to an external api
 =======
-It uses the xmlHttpRequest() object to make a request to an external api
+
 
