@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: rgba(250, 245, 245, 0.986);
     text-align: center;
 }
 
@@ -21,36 +21,33 @@ body{
     margin-top: 20px;
 }
 
-/* .container{
-    border: 2px solid #7E2C0B;
-     background-color: black;
-    width: 50%;
-    text-align: center;
-    float: center;
-    border-radius: 9px;
-    height: 450px;
-} */
-
 .main{
     margin: auto;
-    width: 90%;
+    width: 60%;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 40px;
     background-color:transparent;
     color:#0D5D8B;
     padding:50px 35px 50px;
     padding-bottom: 10%;
-    padding-left: -45%;
-    padding-right: -90%;
-    border-top: 2px solid #0D5D8B;
-    box-shadow: 2px 2px 15px #000;
+    /* padding-left: -45%;
+    padding-right: -90%; */
+    border-top: 3.5px solid #0D5D8B;
+    box-shadow: 3px 9px 11px rgb(9, 63, 114);
+    height:350px;
+    
     
 }
 
 
 .head{
-    color:rgba(0, 0, 255, 0.81);
+    color:rgb(29, 56, 65);
     text-shadow: 0.5px 1.45px blue;
+    font-weight: 50px;
+}
+
+#main-foo{
+    font-weight:bold;
 }
 
 #factsText{
@@ -85,24 +82,28 @@ body{
     text-align: center;
     font-size:18px;
     margin-top: 13px;
-    border-top: 1.7px solid blue;
-    border-bottom: 1.7px solid blue;
-    border-left: 1.7px solid blue;
-    border-right: 1.7px solid blue;
+    border-top: 1.7px solid grey;
+    border-bottom: 1.7px solid grey;
+    border-left: 1.7px solid grey;
+    border-right: 1.7px solid grey;
 }
 
 a{
     text-decoration: none;
     font-weight: bold;
+    color:rgb(29, 56, 65);
 }
 
 
 
 /* Media Queries */
-@media(width:789){
+@media(min-width:789){
     .main,
     .para{
         width: 45%;
+    }
+    #numInput{
+        font-size: 0.5em;
     }
 }
 
@@ -112,4 +113,6 @@ a{
         width: 50%;
       
     }
+
+    
 }

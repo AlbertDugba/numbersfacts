@@ -5,6 +5,9 @@ let numberInput = document.querySelector('#numInput')
 let numfact = document.querySelector('#numfact')
 numberInput.addEventListener('input', getFactAJAX)
 
+
+// XMLHttpRequest to fetch to data
+
 function getFactAJAX(){
     let number = numberInput.value;
     let xhr = new XMLHttpRequest();
@@ -13,10 +16,11 @@ function getFactAJAX(){
         if(this.status == 200 && number != ''){
             hide.style.display = 'block';
             factText.innerText = this.responseText;
+            console.log(this.responseText)
            
         }
 
     }
-    // console.log(number)
+    
     xhr.send();
 }
